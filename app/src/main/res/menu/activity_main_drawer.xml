@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mainPage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="오늘의 정보" />
+        <item
+            android:id="@+id/nav_calendarPage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="캘린더" />
+        <item
+            android:id="@+id/nav_weatherPage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="날씨정보" />
+        <item
+            android:id="@+id/nav_busPage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="버스정보" />
+        <item
+            android:id="@+id/nav_settingPage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="설정" />
+    </group>
+</menu>

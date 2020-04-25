@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">앱 샘플</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_mainPage">오늘의 정보</string>
+    <string name="menu_calendarPage">캘린더</string>
+    <string name="menu_weatherPage">날씨정보</string>
+    <string name="menu_busPage">버스정보</string>
+    <string name="menu_settingPage">설정</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
