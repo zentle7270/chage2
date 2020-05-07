@@ -1,4 +1,18 @@
 package com.example.sample.ui.CalendarPage;
 
-public class CalendarViewModel {
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
+
+public class CalendarViewModel extends ViewModel {
+    private MutableLiveData<String> mText;
+
+    public CalendarViewModel() {
+        mText = new MutableLiveData<>();
+        mText.setValue("캘린더 화면입니다.");
+    }
+
+    public LiveData<String> getText() {
+        return mText;
+    }
 }

@@ -1,16 +1,16 @@
-package com.example.sample.ui.slideshow;
+package com.example.sample.ui.SettingPage;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class SettingViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public SettingViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("안뇽뇽");
+        mText.setValue("설정 화면입니다.");
     }
 
     public LiveData<String> getText() {

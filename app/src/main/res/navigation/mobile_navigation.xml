@@ -31,25 +31,25 @@
 
     <fragment
         android:id="@+id/nav_calendarPage"
-        android:name="com.example.sample.ui.slideshow.SlideshowFragment"
+        android:name="com.example.sample.ui.CalendarPage.CalendarFragment"
         android:label="@string/menu_calendarPage"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_calendar" />
 
     <fragment
         android:id="@+id/nav_weatherPage"
-        android:name="com.example.sample.ui.slideshow.SlideshowFragment"
+        android:name="com.example.sample.ui.WeatherPage.WeatherFragment"
         android:label="@string/menu_weatherPage"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_weather" />
 
     <fragment
         android:id="@+id/nav_busPage"
-        android:name="com.example.sample.ui.slideshow.SlideshowFragment"
+        android:name="com.example.sample.ui.BusPage.BusFragment"
         android:label="@string/menu_busPage"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_bus" />
 
     <fragment
         android:id="@+id/nav_settingPage"
-        android:name="com.example.sample.ui.slideshow.SlideshowFragment"
+        android:name="com.example.sample.ui.SettingPage.SettingFragment"
         android:label="@string/menu_settingPage"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>

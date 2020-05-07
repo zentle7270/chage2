@@ -1,4 +1,4 @@
-package com.example.sample.ui.WeatherPage;
+package com.example.sample.ui.BusPage;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,16 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.sample.R;
 
-public class WeatherFragment extends Fragment {
-
-    private WeatherViewModel weatherViewModel;
+public class BusFragment extends Fragment {
+    private BusViewModel busViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        weatherViewModel =
-                ViewModelProviders.of(this).get(WeatherViewModel.class);
+        busViewModel =
+                ViewModelProviders.of(this).get(BusViewModel.class);
         View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
         final TextView textView = root.findViewById(R.id.text_setting);
-        weatherViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        busViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
@@ -32,5 +31,4 @@ public class WeatherFragment extends Fragment {
         });
         return root;
     }
-
 }
