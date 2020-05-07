@@ -1,16 +1,15 @@
-package com.example.sample.ui.slideshow;
+package com.example.sample.ui.WeatherPage;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class WeatherViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public WeatherViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("안뇽뇽");
+        mText.setValue("날씨 화면입니다.");
     }
 
     public LiveData<String> getText() {
