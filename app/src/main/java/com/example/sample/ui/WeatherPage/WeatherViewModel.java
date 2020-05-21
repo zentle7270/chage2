@@ -8,9 +8,10 @@ public class WeatherViewModel extends ViewModel{
 
     private MutableLiveData<String> mText;
 
-    public WeatherViewModel() {
+    public WeatherViewModel()  {
         mText = new MutableLiveData<>();
-        mText.setValue("날씨 화면입니다");
+        mText.setValue("날씨");
+
     }
 
     public LiveData<String> getText() {

@@ -21,7 +21,7 @@ public class BusFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         busViewModel =
                 ViewModelProviders.of(this).get(BusViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
+        View root = inflater.inflate(R.layout.fragment_bus, container, false);
         final TextView textView = root.findViewById(R.id.text_setting);
         busViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
